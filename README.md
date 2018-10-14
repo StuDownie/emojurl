@@ -13,4 +13,4 @@ If you use PHP for your "404: not found" page you can include this script to det
 
 Alternatively, If you're using Apache and are brave enough to edit the .htaccess file on your server, you can add the full code (including "\x") like this:
 
-  RewriteRule ^\xF0\x9F\x98\x81?$ /your-redirect-link [R=permanent,L,NC]
+`RewriteRule ^\xF0\x9F\x98\x81?$ /your-redirect-link [R=permanent,L,NC]`
